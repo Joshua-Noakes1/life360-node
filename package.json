@@ -1,5 +1,5 @@
 {
-  "name": "life360-node-api",
+  "name": "@Joshua-Noakes1/life360-node",
   "version": "0.0.10",
   "description": "An unofficial hook into Life360.com's API.",
   "main": "index.js",
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kaylathedev/life360-node-api.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "keywords": [
     "life360",
