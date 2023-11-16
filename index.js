@@ -759,7 +759,7 @@ class life360 {
         throw new Error('Second argument must be a password string');
       }
     }
-    const json = await this.request('/v3/oauth2/token', {
+    const json = await this.request('/v3/oauth2/token.json', {
       authorization: this.BASIC_AUTH,
       body: body,
       headers: {

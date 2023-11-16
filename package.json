@@ -1,6 +1,6 @@
 {
   "name": "@Joshua-Noakes1/life360-node",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "An unofficial hook into Life360.com's API.",
   "main": "index.js",
   "scripts": {
